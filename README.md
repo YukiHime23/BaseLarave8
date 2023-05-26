@@ -1,4 +1,4 @@
-# HB_Future_base
+# Laravel 8 base
 # Setup with docker UNIX
 
 - docker-compose up -d
@@ -6,7 +6,7 @@
 
 # Set up set in server docker:
 
-- docker exec -it hb_future_base_php_1 bash
+- docker exec -it app bash
 - composer install
 - cp .env.example .env
 - php artisan config:clear
